@@ -23,7 +23,7 @@ namespace _2.Student_Inheritance
 
             string details = student.GetDetails();
 
-            MessageBox.Show(details, "Student Details", MessageBoxButtons.OK, MessageBoxIcon.Information);s
+            MessageBox.Show(details, "Student Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
