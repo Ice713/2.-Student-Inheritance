@@ -14,5 +14,10 @@ namespace _2.Student_Inheritance
         {
             Course = course;
         }
+
+        public override string GetDetails()
+        {
+            return $"{base.GetDetails()}\nCourse: {Course}";
+        }
     }
 }
