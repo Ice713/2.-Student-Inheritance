@@ -16,5 +16,14 @@ namespace _2.Student_Inheritance
         {
             InitializeComponent();
         }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            Student student = new Student(textBoxName.Text, Convert.ToInt32(numericUpDownAge.Text), textBoxCourse.Text);
+
+            string details = student.GetDetails();
+
+            MessageBox.Show(details, "Student Details", MessageBoxButtons.OK, MessageBoxIcon.Information);s
+        }
     }
 }
